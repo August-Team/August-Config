@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<ApplicationIcon />
 	<StartupObject />
+	<GenerateDocumentationFile>False</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

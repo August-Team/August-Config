@@ -16,6 +16,10 @@ namespace August.Struct
         /// Clean login session at begining
         /// </summary>
         public bool ResetSessionAtRestart;
+        /// <summary>
+        /// Login all bot at the begining
+        /// </summary>
+        public bool DefaultLoginAll;
 
         /// <summary>
         /// Default properties setting data
@@ -27,7 +31,8 @@ namespace August.Struct
                 return new Properties()
                 {
                     UpdateMilliseconds = 10000,
-                    ResetSessionAtRestart = true
+                    ResetSessionAtRestart = true,
+                    DefaultLoginAll = true,
                 };
             }
         }
